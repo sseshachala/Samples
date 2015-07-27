@@ -73,7 +73,7 @@ var onload = function () {
             }
         },
         {
-            title: "TRAIN", scene: "Train", screenshot: "train.jpg", size: "70 MB<BR>by Propertyloop Team ", binary: true, onload: function () {
+            title: "TRAIN", scene: "Train", screenshot: "Train.jpg", size: "70 MB<BR>by Propertyloop Team ", binary: true, onload: function () {
                 scene.collisionsEnabled = false;
                 for (var index = 0; index < scene.cameras.length; index++) {
                     scene.cameras[index].minZ = 10;
