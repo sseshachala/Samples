@@ -62,7 +62,7 @@ var onload = function () {
             title: "ACP", url: "http://race.assassinscreedpirates.com/", screenshot: "ACP.jpg", size: "Assassin's Creed Pirates<BR>by Ubisoft"
         },
         {
-            title: "HILLVALLEY", scene: "HillValley", screenshot: "hill2.jpg", size: "70 MB - Original by Camille JOLY<BR>Optimized by Michel ROUSSEAU", incremental: true, onload: function () {
+            title: "HILLVALLEY", scene: "HillValley", screenshot: "hill2.jpg", size: "70 MB - Original by Camille JOLY<BR>Optimized by Propertyloop Team", incremental: true, onload: function () {
                 scene.collisionsEnabled = false;
                 scene.lightsEnabled = false;
                 scene.activeCamera.applyGravity = true;
@@ -73,7 +73,7 @@ var onload = function () {
             }
         },
         {
-            title: "TRAIN", scene: "Train", screenshot: "train.jpg", size: "70 MB<BR>by Romuald ROUHIER ", binary: true, onload: function () {
+            title: "TRAIN", scene: "Train", screenshot: "train.jpg", size: "70 MB<BR>by Propertyloop Team ", binary: true, onload: function () {
                 scene.collisionsEnabled = false;
                 for (var index = 0; index < scene.cameras.length; index++) {
                     scene.cameras[index].minZ = 10;
@@ -114,7 +114,7 @@ var onload = function () {
         },
         { title: "WORLDMONGER", url: "Scenes/Worldmonger/index.html", screenshot: "worldmonger.jpg", size: "8.5 MB" },
         {
-            title: "HEART", scene: "Heart", screenshot: "heart.jpg", doNotUseCDN: false, size: "14 MB<BR>by Michel Rousseau", onload: function () {
+            title: "HEART", scene: "Heart", screenshot: "heart.jpg", doNotUseCDN: false, size: "14 MB<BR>by Propertyloop Team", onload: function () {
                 scene.getMeshByName("Labels").setEnabled(false);
                 scene.getMeshByName("lums").useVertexColors = false;
                 scene.gravity.scaleInPlace(0.5);
@@ -122,7 +122,7 @@ var onload = function () {
         },
 
         {
-            title: "ESPILIT", scene: "Espilit", screenshot: "espilit.jpg", size: "50 MB<BR>by Michel Rousseau", doNotUseCDN: false, binary: true, onload: function () {
+            title: "ESPILIT", scene: "Espilit", screenshot: "espilit.jpg", size: "50 MB<BR>by Propertyloop Team", doNotUseCDN: false, binary: true, onload: function () {
                 scene.autoClear = true;
                 scene.createOrUpdateSelectionOctree();
                 scene.getMeshByName("Sol loin").useVertexColors = false;
@@ -132,7 +132,7 @@ var onload = function () {
             }
         },
 
-        { title: "WINDOWS CAFE", scene: "WCafe", screenshot: "wcafe.jpg", doNotUseCDN: false, size: "28 MB<BR>by Michel Rousseau", anchor: "WCAFE" },
+        { title: "WINDOWS CAFE", scene: "WCafe", screenshot: "wcafe.jpg", doNotUseCDN: false, size: "28 MB<BR>by Propertyloop Team", anchor: "WCAFE" },
         {
             title: "FLAT 2009",
             scene: "flat2009",
@@ -148,7 +148,7 @@ var onload = function () {
             }
         },
         {
-            title: "THE CAR", scene: "TheCar", screenshot: "thecar.jpg", size: "100 MB<BR>by Michel Rousseau", binary: true, anchor: "THECAR", onload: function () {
+            title: "THE CAR", scene: "TheCar", screenshot: "thecar.jpg", size: "100 MB<BR>by Propertyloop Team", binary: true, anchor: "THECAR", onload: function () {
                 scene.getMeshByName("C-Max_Pneu_arrière_gauche").material.bumpTexture = null;
                 scene.getMeshByID("b73467cc-d1b0-4b8b-a767-12a95e0e28cf").alphaIndex = 0;
             }
@@ -156,7 +156,7 @@ var onload = function () {
         { title: "VIPER", scene: "Viper", screenshot: "viper.jpg", size: "18 MB" },
         { title: "SPACESHIP", scene: "Spaceship", screenshot: "spaceship.jpg", size: "1 MB" },
         {
-            title: "OMEGA CRUSHER", scene: "SpaceDeK", screenshot: "omegacrusher.jpg", size: "10 MB<BR>by Michel Rousseau", anchor: "OMEGA", onload: function () {
+            title: "OMEGA CRUSHER", scene: "SpaceDeK", screenshot: "omegacrusher.jpg", size: "10 MB<BR>by Propertyloop Team", anchor: "OMEGA", onload: function () {
                 scene.collisionsEnabled = false;
             }
         }];
