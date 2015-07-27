@@ -99,13 +99,7 @@ var onload = function () {
                 scene.getMeshByID("b73467cc-d1b0-4b8b-a767-12a95e0e28cf").alphaIndex = 0;
             }
         },
-        { title: "VIPER", scene: "Viper", screenshot: "viper.jpg", size: "18 MB" },
-        { title: "SPACESHIP", scene: "Spaceship", screenshot: "spaceship.jpg", size: "1 MB" },
-        {
-            title: "OMEGA CRUSHER", scene: "SpaceDeK", screenshot: "omegacrusher.jpg", size: "10 MB<BR>by Propertyloop Team", anchor: "OMEGA", onload: function () {
-                scene.collisionsEnabled = false;
-            }
-        }];
+       ];
 
     var tests = [
        /* { title: "DEPTH OF FIELD / LENS", id: 36, screenshot: "dof.jpg", size: "30 MB", anchor: "DOF" },
