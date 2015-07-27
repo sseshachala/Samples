@@ -60,7 +60,7 @@ var onload = function () {
         },
    
         {
-            title: "ESPILIT", scene: "Espilit", screenshot: "espilit.jpg", size: "50 MB<BR>by Propertyloop Team", doNotUseCDN: false, binary: true, onload: function () {
+            title: "Open Home", scene: "Espilit", screenshot: "espilit.jpg", size: "50 MB<BR>by Propertyloop Team", doNotUseCDN: false, binary: true, onload: function () {
                 scene.autoClear = true;
                 scene.createOrUpdateSelectionOctree();
                 scene.getMeshByName("Sol loin").useVertexColors = false;
@@ -72,7 +72,7 @@ var onload = function () {
 
         { title: "WINDOWS CAFE", scene: "WCafe", screenshot: "wcafe.jpg", doNotUseCDN: false, size: "28 MB<BR>by Propertyloop Team", anchor: "WCAFE" },
         {
-            title: "FLAT 2009",
+            title: "Flat",
             scene: "flat2009",
             screenshot: "flat2009.jpg",
             binary: true,
