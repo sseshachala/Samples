@@ -51,7 +51,7 @@ var onload = function () {
             }
         },
         {
-            title: "V8 ENGINE", scene: "V8", screenshot: "V8small.jpg", size: "15 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "V8",
+            title: "V8 ENGINE", scene: "V8", screenshot: "v8small.jpg", size: "15 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "V8",
             onload: function () {
                 scene.activeCamera.minZ = 1;
                 scene.lights[0].getShadowGenerator().usePoissonSampling = true;
