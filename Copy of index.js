@@ -30,7 +30,7 @@ var onload = function () {
     // Demos
     var demos = [
         {
-            title: "MANSION", scene: "Mansion", big: true, screenshot: "Mansion400.jpg", size: "75 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "MANSION",
+            title: "MANSION", scene: "Mansion", big: true, screenshot: "Mansion400.jpg", size: "75 MB<BR>by Michel Rousseau", incremental: false, doNotUseCDN: false, anchor: "MANSION",
             onload: function () {
                 var moon = scene.getMeshByName("Moon");
 
@@ -41,17 +41,19 @@ var onload = function () {
                 scene.gravity.scaleInPlace(0.2);
             }
         },
-       
+        {
+            title: "FLIGHT ARCADE", url: "http://flightarcade.com", big: false, screenshot: "flightarcade.jpg", size: "Microsoft Edge"
+        },
         {
             title: "DINO HUNT", url: "http://dinohuntcanada.history.ca", big: false, screenshot: "dino800.jpg", size: "History Channel"
         },
         {
-            title: "RETAIL", scene: "Retail", screenshot: "Retail800.jpg", size: "3 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "RETAIL",
+            title: "RETAIL", scene: "Retail", screenshot: "Retail800.jpg", size: "3 MB<BR>by Michel Rousseau", incremental: false, doNotUseCDN: false, anchor: "RETAIL",
             onload: function () {
             }
         },
         {
-            title: "V8 ENGINE", scene: "V8", screenshot: "V8small.jpg", size: "15 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "V8",
+            title: "V8 ENGINE", scene: "V8", screenshot: "V8small.jpg", size: "15 MB<BR>by Michel Rousseau", incremental: false, doNotUseCDN: false, anchor: "V8",
             onload: function () {
                 scene.activeCamera.minZ = 1;
                 scene.lights[0].getShadowGenerator().usePoissonSampling = true;
