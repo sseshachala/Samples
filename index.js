@@ -58,47 +58,7 @@ var onload = function () {
                 }
             }
         },
-        {
-            title: "TRAIN", scene: "Train", screenshot: "Train.jpg", size: "70 MB<BR>by Propertyloop Team ", binary: true, onload: function () {
-                scene.collisionsEnabled = false;
-                for (var index = 0; index < scene.cameras.length; index++) {
-                    scene.cameras[index].minZ = 10;
-                }
-
-                for (index = 0; index < scene.meshes.length; index++) {
-                    var mesh = scene.meshes[index];
-
-                    mesh.isBlocker = mesh.checkCollisions;
-                }
-
-                scene.activeCamera.detachControl(canvas);
-                scene.activeCamera = scene.cameras[6];
-                scene.activeCamera.attachControl(canvas);
-                scene.getMaterialByName("terrain_eau").bumpTexture = null;
-
-                // Postprocesses
-                var bwPostProcess = new BABYLON.BlackAndWhitePostProcess("Black and White", 1.0, scene.cameras[2]);
-                scene.cameras[2].name = "B&W";
-
-                var sepiaKernelMatrix = BABYLON.Matrix.FromValues(
-                    0.393, 0.349, 0.272, 0,
-                    0.769, 0.686, 0.534, 0,
-                    0.189, 0.168, 0.131, 0,
-                    0, 0, 0, 0
-                );
-                var sepiaPostProcess = new BABYLON.FilterPostProcess("Sepia", sepiaKernelMatrix, 1.0, scene.cameras[3]);
-                scene.cameras[3].name = "SEPIA";
-
-                var serializationObject = BABYLON.SceneSerializer.Serialize(scene);
-                var string = JSON.stringify(serializationObject);
-            }
-        },
-        {
-            title: "ROBOT", url: "Scenes/Robot/index.html", screenshot: "robot.jpg", size: "8.5 MB<BR>by Propertyloop Team", onload: function () {
-                scene.collisionsEnabled = false;
-            }
-        },
-        { title: "WORLDMONGER", url: "Scenes/Worldmonger/index.html", screenshot: "worldmonger.jpg", size: "8.5 MB" },
+        
         {
             title: "HEART", scene: "Heart", screenshot: "heart.jpg", doNotUseCDN: false, size: "14 MB<BR>by Propertyloop Team", onload: function () {
                 scene.getMeshByName("Labels").setEnabled(false);
@@ -148,7 +108,7 @@ var onload = function () {
         }];
 
     var tests = [
-        { title: "DEPTH OF FIELD / LENS", id: 36, screenshot: "dof.jpg", size: "30 MB", anchor: "DOF" },
+       /* { title: "DEPTH OF FIELD / LENS", id: 36, screenshot: "dof.jpg", size: "30 MB", anchor: "DOF" },
         { title: "SIMD.JS", url: "http://www.babylonjs.com/scenes/simd.html", screenshot: "simd.jpg", size: "60 MB", anchor: "SIMD" },
         { title: "RIBBONS", id: 35, screenshot: "ribbons.jpg", size: "1 MB", anchor: "RIBBONS" },
 		{ title: "DECALS", id: 34, screenshot: "decals.jpg", size: "1 MB", anchor: "DECALS" },
@@ -192,10 +152,11 @@ var onload = function () {
         { title: "MULTIMATERIAL", id: 4, screenshot: "multimat.jpg", size: "0.1 MB" },
         { title: "BLENDER", scene: "blender", screenshot: "blender.jpg", size: "0.2 MB", incremental: true },
         { title: "SCENE #1", id: 0, screenshot: "testscene.jpg", size: "10 MB" }
+        */
     ];
 
     var thirdParties = [
-        { title: "CHARACTER STUDY", url: "http://www.visualiser.fr/Babylon/character/default.htm", screenshot: "characterstudy.jpg", size: "Samuel Girardin" },
+        /*{ title: "CHARACTER STUDY", url: "http://www.visualiser.fr/Babylon/character/default.htm", screenshot: "characterstudy.jpg", size: "Samuel Girardin" },
         {
             title: "DANCE MOVES", scene: "DanceMoves", screenshot: "mixamo.jpg", size: "MIXAMO &<BR>Jerry Richards", anchor: "DANCEMOVES", onload: function () {
 
@@ -234,6 +195,7 @@ var onload = function () {
         { title: "PSN TELECENTRES", url: "http://psntelecentres.com/visite_virtuelle.html", screenshot: "psn.jpg", size: "by SOKRATE" },
         { title: "VIRTUAL EXPO", url: "http://www.sokrate.fr/expovirtuelle/index.htm", screenshot: "expo.jpg", size: "by SOKRATE" },
         { title: "3delyvisions SKYBOX TOUR", url: "http://urbanproductions.com/wingy/babylon/skyboxes/skybox_tour.htm", screenshot: "tour.jpg", size: "by Wingnut" }
+    	*/
     ];
 
     // UI
