@@ -58,15 +58,7 @@ var onload = function () {
                 }
             }
         },
-        
-        {
-            title: "HEART", scene: "Heart", screenshot: "Heart.jpg", doNotUseCDN: false, size: "14 MB<BR>by Propertyloop Team", onload: function () {
-                scene.getMeshByName("Labels").setEnabled(false);
-                scene.getMeshByName("lums").useVertexColors = false;
-                scene.gravity.scaleInPlace(0.5);
-            }
-        },
-
+   
         {
             title: "ESPILIT", scene: "Espilit", screenshot: "espilit.jpg", size: "50 MB<BR>by Propertyloop Team", doNotUseCDN: false, binary: true, onload: function () {
                 scene.autoClear = true;
