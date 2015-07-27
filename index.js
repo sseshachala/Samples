@@ -48,7 +48,7 @@ var onload = function () {
             }
         },
         {
-            title: "HILLVALLEY", scene: "HillValley", screenshot: "hill2.jpg", size: "70 MB - Original by Camille JOLY<BR>Optimized by Propertyloop Team", incremental: true, onload: function () {
+            title: "HILLVALLEY", scene: "HillValley", screenshot: "hill2.jpg", size: "70 MB - Optimized by Propertyloop Team", incremental: true, onload: function () {
                 scene.collisionsEnabled = false;
                 scene.lightsEnabled = false;
                 scene.activeCamera.applyGravity = true;
@@ -94,7 +94,7 @@ var onload = function () {
             }
         },
         {
-            title: "THE CAR", scene: "TheCar", screenshot: "thecar.jpg", size: "100 MB<BR>by Propertyloop Team", binary: true, anchor: "THECAR", onload: function () {
+            title: "THE CAR", scene: "TheCar", screenshot: "TheCar.jpg", size: "100 MB<BR>by Propertyloop Team", binary: true, anchor: "THECAR", onload: function () {
                 scene.getMeshByName("C-Max_Pneu_arrière_gauche").material.bumpTexture = null;
                 scene.getMeshByID("b73467cc-d1b0-4b8b-a767-12a95e0e28cf").alphaIndex = 0;
             }
