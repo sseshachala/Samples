@@ -41,25 +41,11 @@ var onload = function () {
                 scene.gravity.scaleInPlace(0.2);
             }
         },
-       
-        {
-            title: "DINO HUNT", url: "http://dinohuntcanada.history.ca", big: false, screenshot: "dino800.jpg", size: "History Channel"
-        },
+      
         {
             title: "RETAIL", scene: "Retail", screenshot: "Retail800.jpg", size: "3 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "RETAIL",
             onload: function () {
             }
-        },
-        {
-            title: "V8 ENGINE", scene: "V8", screenshot: "v8small.jpg", size: "15 MB<BR>by Propertyloop Team", incremental: false, doNotUseCDN: false, anchor: "V8",
-            onload: function () {
-                scene.activeCamera.minZ = 1;
-                scene.lights[0].getShadowGenerator().usePoissonSampling = true;
-                scene.lights[0].getShadowGenerator().bias *= 2;
-            }
-        },
-        {
-            title: "ACP", url: "http://race.assassinscreedpirates.com/", screenshot: "ACP.jpg", size: "Assassin's Creed Pirates<BR>by Ubisoft"
         },
         {
             title: "HILLVALLEY", scene: "HillValley", screenshot: "hill2.jpg", size: "70 MB - Original by Camille JOLY<BR>Optimized by Propertyloop Team", incremental: true, onload: function () {
