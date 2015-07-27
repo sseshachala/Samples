@@ -108,7 +108,7 @@ var onload = function () {
             }
         },
         {
-            title: "ROBOT", url: "Scenes/Robot/index.html", screenshot: "robot.jpg", size: "8.5 MB<BR>by Michel Rousseau", onload: function () {
+            title: "ROBOT", url: "Scenes/Robot/index.html", screenshot: "robot.jpg", size: "8.5 MB<BR>by Propertyloop Team", onload: function () {
                 scene.collisionsEnabled = false;
             }
         },
@@ -139,7 +139,7 @@ var onload = function () {
             screenshot: "flat2009.jpg",
             binary: true,
             doNotUseCDN: false,
-            size: "44 MB<BR>by Michel Rousseau",
+            size: "44 MB<BR>by Propertyloop Team",
             onload: function () {
                 var ecran = scene.getMeshByName("Ecran");
                 ecran.material.diffuseTexture = new BABYLON.VideoTexture("video", ["Scenes/Flat2009/babylonjs.mp4", "Scenes/Flat2009/babylonjs.webm"], scene, true, true);
