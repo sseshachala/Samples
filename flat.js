@@ -632,7 +632,7 @@ var onload = function () {
         if (scene) {
             if (!sceneChecked) {
                 var remaining = scene.getWaitingItemsCount();
-                engine.loadingUIText = "Streaming items..." + (remaining ? (remaining + " remaining") : "");
+                engine.loadingUIText = "Loading Objects..." + (remaining ? (remaining + " remaining") : "");
             }
 
             scene.render();
