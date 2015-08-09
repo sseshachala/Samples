@@ -641,7 +641,7 @@ var onload = function () {
             if (scene.useDelayedTextureLoading) {
                 var waiting = scene.getWaitingItemsCount();
                 if (waiting > 0) {
-                    status.innerHTML = "Streaming items..." + waiting + " remaining";
+                    status.innerHTML = "Loading Objects..." + waiting + " remaining";
                 } else {
                     status.innerHTML = "";
                 }
