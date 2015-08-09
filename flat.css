@@ -157,7 +157,7 @@ button {
     transition: transform 0.4s ease-in-out;
     -webkit-transition: -webkit-transform 0.4s ease-in-out;
     background-color: #DEDEDE;
-    background-image: url("Assets/Bandeauhaut.png");
+    background-image: url("../Assets/Bandeauhaut.png");
     background-repeat: repeat-x;
 }
 
@@ -167,7 +167,7 @@ button {
     top: 135px;
     width: 100%;
     height: 47px;
-    background-image: url("Assets/gradient.png");
+    background-image: url("../Assets/gradient.png");
     background-repeat: repeat-x;
     z-index: 1;
 }
